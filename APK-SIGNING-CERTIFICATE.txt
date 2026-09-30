@@ -1,0 +1,9 @@
+AliceMic APK signing certificate
+
+Algorithm: SHA-256
+Certificate fingerprint: 79A185AA2D0E721467982A2ACE5879B3D36CC996942B8354138B608375E8B227
+
+Verify the APK signature with Android SDK Build Tools:
+apksigner verify --verbose --print-certs AliceMic-1.0.6.apk
+
+The displayed SHA-256 certificate fingerprint must match the value above.
